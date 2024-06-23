@@ -8,6 +8,14 @@ body {
     grid-template-rows: 0.25fr 3fr 0.25fr;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
 header {
     grid-area: header;
     background-color: yellow;
@@ -19,8 +27,15 @@ h1 {
 
 .flow-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding-left: 0;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+}
+
+
+#title {
+    align-self: flex-start;
 }
 
 .blog-title {
