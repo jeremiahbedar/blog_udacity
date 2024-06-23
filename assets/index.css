@@ -12,13 +12,19 @@ header {
     grid-area: header;
     background-color: yellow;
 }
+
 h1 {
     display: inline;
 }
+
 .flow-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.blog-title {
+    display: inline;
 }
 
 article {
@@ -26,6 +32,7 @@ article {
     margin: 10px;
     padding: 10px;
 }
+
 
 main {
     grid-area: main;
