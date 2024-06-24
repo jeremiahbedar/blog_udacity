@@ -1,3 +1,7 @@
+html, body {
+    height: 100vh;
+}
+
 body {
     margin: 0;
     display: grid;
@@ -70,5 +74,6 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: #eee;
+    background-color: #555;
+    color: #eee;
 }
