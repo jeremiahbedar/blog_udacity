@@ -1,11 +1,11 @@
-html, body {
-    height: 100vh;
-}
-
 :root {
     --primary-color: #333;
     --secondary-color: #555;
     --tertiary-color: #eee;
+}
+
+html, body {
+    height: 100vh;
 }
 
 body {
@@ -15,21 +15,34 @@ body {
     grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
 }
 
+header {
+    grid-area: header;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+/* Provides flexbox functionality for nav and footer lists */
+.flow-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-around;
+    margin: 0;
+    align-items: center;
+}
+
 ul {
     list-style-type: none;
+}
+
+ul a li {
+    padding: 30px;
 }
 
 
 li {
     display: inline;
     justify-content: center;
-}
-
-
-header {
-    grid-area: header;
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
 }
 
 a > li {
@@ -40,12 +53,7 @@ a {
     text-decoration: none;
 }
 
-.button {
-    background-color: var(---color);
-    border: 1px solid var(--secondary-color);
-    padding: 5px;
-}
-
+/* blog post */
 .date-time {
     font-size: 0.8em;
     margin-top: 5px;
@@ -53,18 +61,6 @@ a {
     display: block;
 }
 
-h1 {
-    display: inline;
-}
-
-.flow-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    justify-content: space-around;
-    margin: 0;
-    align-items: center;
-}
 
 .profile-data {
     display: flex;
@@ -80,28 +76,27 @@ h1 {
     width: 30px;
 }
 
-#title {
-    align-self: flex-start;
+.button {
+    background-color: var(---color);
+    border: 1px solid var(--secondary-color);
+    padding: 5px;
 }
 
-ul a li {
-    padding: 30px;
-}
-
-
-article {
-    background-color: var(--tertiary-color);
-    margin: 10px;
-    padding: 10px;
-}
-
-
+/* Main which contains individual articles */
 main {
     grid-area: main;
     display: grid;
     background-color: var(--secondary-color);
 }
 
+/* Each article contains blogposts */
+article {
+    background-color: var(--tertiary-color);
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Footer | contains information at bottom of the page */
 footer {
     grid-area: footer;
     background-color: var(--secondary-color);
