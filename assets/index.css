@@ -79,7 +79,7 @@ a {
 }
 
 /* Main which contains individual articles */
-main {
+main:not(.subscribe) {
     grid-area: main;
     display: grid;
     background-color: var(--secondary-color);
@@ -94,11 +94,11 @@ article {
 
 .subscribe {
     grid-area: subscribe;
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 
 /* Footer | contains information at bottom of the page */
