@@ -94,7 +94,7 @@ article {
 
 .subscribe {
     grid-area: subscribe;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,5 +105,8 @@ article {
 footer {
     grid-area: footer;
     background-color: var(--secondary-color);
+}
+
+footer, footer a {
     color: var(--tertiary-color)
 }
