@@ -4,15 +4,12 @@
     --tertiary-color: #eee;
 }
 
-html, body {
-    height: 100vh;
-}
-
 body {
     margin: 0;
     display: grid;
     font-family: Arial, Helvetica, sans-serif;
     grid-template-areas: "header header header header" "main main main main" "subscribe subscribe subscribe subscribe" "footer footer footer footer";
+    grid-template-rows: 75px 3fr 1fr 75px;
 }
 
 header {
@@ -29,6 +26,10 @@ header {
     justify-content: space-around;
     margin: 0;
     align-items: center;
+}
+
+footer .flow-container {
+    height: 100%;
 }
 
 ul a li {
@@ -79,7 +80,7 @@ a {
 }
 
 /* Main which contains individual articles */
-main:not(.subscribe) {
+main {
     grid-area: main;
     display: grid;
     background-color: var(--secondary-color);
@@ -95,6 +96,7 @@ article {
 .subscribe {
     grid-area: subscribe;
     background-color: var(--secondary-color);
+    color: var(--tertiary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,6 +105,7 @@ article {
 
 /* Footer | contains information at bottom of the page */
 footer {
+    border-top: 1px solid var(--primary-color);
     grid-area: footer;
     background-color: var(--secondary-color);
 }
