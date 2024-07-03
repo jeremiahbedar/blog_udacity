@@ -46,6 +46,10 @@ li {
     justify-content: center;
 }
 
+li:hover {
+    background-color: var(--secondary-color);
+}
+
 a > li {
     color: var(--tertiary-color);
 }
@@ -85,14 +89,12 @@ a {
 
 form {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 #email-input, #submit-btn {
     padding: 5px;
     margin: 5px;
-    border-radius: 5px;
     background-color: var(--tertiary-color);
 }
 
