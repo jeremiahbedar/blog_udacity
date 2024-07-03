@@ -18,6 +18,10 @@ header {
     color: var(--tertiary-color);
 }
 
+h2 {
+    margin: 0 0 5px;
+}
+
 /* Provides flexbox functionality for nav and footer lists */
 .flow-container {
     display: flex;
@@ -75,7 +79,7 @@ a {
 
 .button {
     background-color: var(---color);
-    border: 1px solid var(--secondary-color);
+    /* border: 1px solid var(--secondary-color); */
     padding: 5px;
 }
 
@@ -110,8 +114,9 @@ main {
 /* Each article contains blogposts */
 article {
     background-color: var(--tertiary-color);
+    border-radius: 10px;
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
 }
 
 .subscribe {
