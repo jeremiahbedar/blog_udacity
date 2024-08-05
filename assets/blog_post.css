@@ -1,4 +1,4 @@
-@import url('base-styles.css');
+@import 'base-styles.css';
 
 body {
     grid-template-areas: "header header header header" "main main . ." "footer footer footer footer";
