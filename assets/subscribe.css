@@ -1,0 +1,28 @@
+.subscribe {
+    grid-area: subscribe;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#email-input, #submit-btn {
+    padding: 5px;
+    margin: 5px;
+    background-color: var(--tertiary-color);
+}
+
+
+
+#submit-btn {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    width: 100%;
+}

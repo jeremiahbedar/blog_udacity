@@ -1,0 +1,14 @@
+/* Footer | contains information at bottom of the page */
+footer {
+    border-top: 1px solid var(--primary-color);
+    grid-area: footer;
+    background-color: var(--secondary-color);
+}
+
+footer, footer a {
+    color: var(--tertiary-color)
+}
+
+footer .flow-container {
+    height: 100%;
+}

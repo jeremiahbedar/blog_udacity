@@ -5,15 +5,51 @@ body {
     grid-template-rows: 75px 1fr 75px;
 }
 
+/* blog post */
+.date-time {
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: grey;
+    display: block;
+}
 
+
+.profile-data {
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    margin-left: 5px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.button {
+    background-color: var(---color);
+    /* border: 1px solid var(--secondary-color); */
+    padding: 5px;
+}
+
+
+/* Each article contains blogposts */
 article {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+/* article {
     margin: 40px;
 }
 
 .profile-picture {
     width: 50px;
-}
+} */
 
-#social-media {
+/* #social-media {
     color: white;
-}
+} */
