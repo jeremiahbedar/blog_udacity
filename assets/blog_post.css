@@ -2,7 +2,7 @@
 
 body {
     grid-template-areas: "header header header header" "main main . ." "footer footer footer footer";
-    grid-template-rows: 75px 1fr 75px 75px;
+    grid-template-rows: 75px 1fr 75px;
 }
 
 /* blog post */
@@ -41,6 +41,9 @@ article {
     margin: 10px;
 }
 
+#social-media {
+    color: var(--primary-color) !important;
+}
 
 
 /* article {

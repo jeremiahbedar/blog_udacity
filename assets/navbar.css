@@ -41,7 +41,7 @@ nav, ul {
 
 
 
-li:hover {
+.navbar-item:hover {
     background-color: var(--secondary-color);
 }
 
@@ -51,7 +51,7 @@ li:hover {
     background-color: var(--secondary-color);
 }
 
-li a {
+nav li a {
     color: var(--tertiary-color);
 }
 
