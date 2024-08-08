@@ -23,7 +23,7 @@ li {
     justify-content: center;
 }
 
-li:hover {
+nav li:hover {
     background-color: var(--secondary-color);
 }
 
