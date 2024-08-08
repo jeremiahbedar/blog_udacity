@@ -39,13 +39,9 @@ nav, ul {
     height: 100%;
 }
 
-
-
 .navbar-item:hover {
     background-color: var(--secondary-color);
 }
-
-
 
 #current {
     background-color: var(--secondary-color);
@@ -58,4 +54,3 @@ nav li a {
 a {
     text-decoration: none;
 }
-

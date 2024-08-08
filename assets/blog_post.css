@@ -13,7 +13,6 @@ body {
     display: block;
 }
 
-
 .profile-data {
     display: flex;
     align-items: center;
@@ -34,7 +33,6 @@ body {
     padding: 5px;
 }
 
-
 /* Each article contains blogposts */
 article {
     border-radius: 10px;
@@ -48,11 +46,3 @@ article {
 .flow-container {
     justify-content: center;
 }
-
-/* article {
-    margin: 40px;
-}
-
-.profile-picture {
-    width: 50px;
-} */

@@ -17,7 +17,6 @@ h2 {
     margin: 0 0 5px;
 }
 
-
 body {
     grid-template-areas: "header header header header" "main main main main" "subscribe subscribe subscribe subscribe" "footer footer footer footer";
     grid-template-rows: 75px 1fr 300px 75px;
