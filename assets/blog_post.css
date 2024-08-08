@@ -46,3 +46,8 @@ article {
 .flow-container {
     justify-content: center;
 }
+
+figure {
+    background-color: black;
+    color: var(--tertiary-color);
+}
