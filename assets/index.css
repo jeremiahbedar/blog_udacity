@@ -20,5 +20,5 @@ h2 {
 
 body {
     grid-template-areas: "header header header header" "main main main main" "subscribe subscribe subscribe subscribe" "footer footer footer footer";
-    grid-template-rows: 75px 3fr 1fr 75px;
+    grid-template-rows: 75px 3fr 2fr 75px;
 }

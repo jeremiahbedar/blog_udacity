@@ -13,21 +13,45 @@ ul a li {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
     margin: 0;
     align-items: center;
 }
 
-li {
-    display: inline;
-    justify-content: center;
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
-nav li:hover {
+li {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    align-content: center;
+}
+
+a {
+    height: 100%;
+}
+
+nav, ul {
+    height: 100%;
+}
+
+
+
+li:hover {
     background-color: var(--secondary-color);
 }
 
-a > li {
+
+
+#current {
+    background-color: var(--secondary-color);
+}
+
+li a {
     color: var(--tertiary-color);
 }
 
@@ -35,6 +59,3 @@ a {
     text-decoration: none;
 }
 
-#current {
-    background-color: var(--secondary-color);
-}
