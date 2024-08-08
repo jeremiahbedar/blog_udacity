@@ -45,6 +45,9 @@ article {
     color: var(--primary-color) !important;
 }
 
+.flow-container {
+    justify-content: center;
+}
 
 /* article {
     margin: 40px;
