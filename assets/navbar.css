@@ -34,3 +34,7 @@ a > li {
 a {
     text-decoration: none;
 }
+
+#current {
+    background-color: var(--secondary-color);
+}
